@@ -3,7 +3,7 @@
 function Button(props){
 
     return(
-    <div onClick={props.onPress} style={props.style} className="flex relative w-48 font-semibold justify-center text-black bg-white hover:text-white border-2 border-gray-600 items-center py-2 px-5 hover:bg-black rounded-md mb-1 transition-colors duration-200 cursor-pointer">
+    <div onClick={props.onPress} style={props.style} className="flex relative text-sm md:text-lg w-1/2 py-4 md:py-2 font-semibold justify-center text-black hover:text-white border-2 border-gray-600 items-center whitespace-nowrap hover:bg-black rounded-md transition-colors duration-200 cursor-pointer select-none">
         
     
             {props.children}

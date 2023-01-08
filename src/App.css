@@ -9,7 +9,8 @@ input:focus {
 }
 
 [type='number']:focus{
-    border-color: #EA2027 !important;
+    border-color: #292524 !important;
+    
 }
 
 [type='checkbox'] {
