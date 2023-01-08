@@ -74,13 +74,17 @@ useEffect(()=>{
 
       </div>
 
+{
+  Number(value) > 0 ? (
+    <div className='flex w-full flex-col items-center py-[16px] font-bold text-stone-700'>
+    <div className='flex w-[400px] flex-row justify-between'><span>Toplam</span><span>{Number(toplam) > 0 ? toplam : ' '}</span></div>
+    <div className='flex w-[400px] flex-row justify-between'><span>Kdv % <span className='text-appRed'>{kdvOran   ? kdvOran : ' '}</span></span><span>{Number(kdvToplam) > 0 ? kdvToplam : ' '}</span></div>
+    <div className='flex w-[400px] flex-row justify-between'><span>Genel Toplam</span><span>{Number(genelToplam) > 0 ? genelToplam : ' '}</span></div>
 
-     <div className='flex w-full flex-col items-center py-[16px] font-bold text-stone-700'>
-      <div className='flex w-[400px] flex-row justify-between'><span>Toplam</span><span>{toplam ? toplam : null}</span></div>
-      <div className='flex w-[400px] flex-row justify-between'><span>Kdv % <span className='text-appRed'>{kdvOran ? kdvOran : null}</span></span><span>{kdvToplam}</span></div>
-      <div className='flex w-[400px] flex-row justify-between'><span>Genel Toplam</span><span>{genelToplam ? genelToplam : null}</span></div>
-
-     </div>
+   </div>
+  ) : ''
+}
+     
       
       
     </div>
