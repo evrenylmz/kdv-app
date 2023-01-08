@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="robots" content="all" />
+  <meta name="description" content="Kolay Kdv hesaplayıcı uygulaması" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <title>Kdv Hesaplayıcı</title>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'nephritis': '#27ae60',
+            'emerald': '#2ecc71',
+            'mattPurple': '#8c7ae6',
+            'periwinkle': '#9c88ff',
+            'skirretGreen': '#44bd32',
+            'appRed': '#EA2027',
+          },
+          spacing: {
+            'spacing-1': '10px',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="overflow-y-scroll min-h-screen w-full font-sans antialiased overflow-x-hidden">
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+</body>
+
+</html>

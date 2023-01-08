@@ -1,0 +1,21 @@
+
+textarea:focus,
+input:focus {
+    box-shadow: none !important;
+    
+}
+[type='text']:focus{
+    border-color: #EA2027 !important;
+}
+
+[type='number']:focus{
+    border-color: #EA2027 !important;
+}
+
+[type='checkbox'] {
+    color: #EA2027 !important;
+    border-radius: 5px !important;
+    height: 20px !important;
+    width: 20px !important;
+    ;
+}
