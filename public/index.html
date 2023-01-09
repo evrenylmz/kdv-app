@@ -9,7 +9,7 @@
   <meta name="theme-color" content="#000000" />
   <meta name="robots" content="all" />
   <meta name="description" content="Kolay Kdv hesaplayıcı uygulaması" />
-
+  <meta name="keywords" content="kdv, hesap, finans, fatura">
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   <title>Kdv Hesaplayıcı</title>
@@ -33,7 +33,15 @@
       }
     }
   </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8X5KD8W9YJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-8X5KD8W9YJ');
+</script>
 </head>
 
 <body class="overflow-y-scroll min-h-screen w-full overflow-x-hidden bg-stone-200 flex">
