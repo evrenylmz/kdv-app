@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import Lottie from "lottie-react";
 import mathAnimation from './math.json'
 
